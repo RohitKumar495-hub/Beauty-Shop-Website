@@ -1,0 +1,806 @@
+body
+    {   background-image: url(../images/bg.jpg);
+        background-size:100% 800px;
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+    }
+
+/*Start nav for menu items*/
+
+nav
+    {
+        width:100%;
+        height:260px;
+        float:left;
+        background-color: rgba(0,0,0,0.8);
+        box-sizing: border-box;
+        padding: 40px;
+    }
+#welcome
+    {
+        font-size: 80px;
+        text-align: center;
+        color: white;
+        padding: 0;
+        margin: 0;
+    }
+#menu
+    {
+        width: 750px;
+        height: 70px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+#nav_item
+    {
+        width: 20%;
+        height: 50px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        box-sizing: border-box;
+        text-align: center;
+    }
+a
+    {
+        color: white;
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 20px;
+    }
+
+/* End nav for menu items*/
+
+/* Start Home section coding*/
+
+#home_section
+    {
+        width: 700px;
+        height: 469px;;
+        float: right;
+        background-image: url(../images/s_bg.png);
+        box-sizing: border-box;
+    }
+#logo
+    {
+        width: 180px;
+        height: 180px;
+        box-sizing: border-box;
+        border-width: 5px;
+        border-style: solid;
+        border-color: white;
+        margin-left: 240px;
+        margin-top: 130px;
+    }
+#logo_text
+    {
+        padding: 0;
+        margin: 0;
+        font-family: Verdana;
+        color: white;
+        font-size: 160px;
+        margin-top: -20px;
+    }
+#domain
+    {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: verdana;
+        font-size: 30px;
+        text-align: center;
+        margin-left: 225px;
+    }
+
+/* End Home section coding*/
+
+/*Start login page nav coding*/
+
+#domain_name
+    {
+        margin: 0;
+        padding: 0;
+        color: white;
+        text-align: center;
+        font-size: 50px;
+        font-family: sans-serif;
+    }
+
+/* End login page nav coding*/
+
+/* Start login page section coding*/
+
+#login_fieldset
+    {
+        width: 380px;
+        height: 230px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: white;
+        margin-left: 130px;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+#login_section
+    {
+        width: 700px;
+        height: 469px;;
+        float: right;
+        background-image: url(../images/s_bg.png);
+        box-sizing: border-box;
+        padding:80px;
+    }
+
+#login_legend
+    {
+        font-family: century gothic;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+#login_form
+    {
+        font-family: century gothic;
+        color: white;
+        font-size: 20px;
+    }
+
+#login_username
+    {
+        width: 100%;
+        height: 30px;
+        background-color: inherit;
+        border: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        font-size: 15px;
+        margin-top: 10px; 
+        margin-bottom: 20px;
+    }
+
+#login_password
+    {
+        width: 100%;
+        height: 30px;
+        background-color: inherit;
+        border: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        font-size: 15px;
+    }
+
+#login_button
+    {
+        width: 115px;
+        height: 35px;
+        float: right;
+        margin-top: 20px;
+        background-color: inherit;
+        border: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        font-family: century gothic;
+        font-size: 18px;
+    }
+
+
+/* End login page section coding*/
+
+/* Start singup page section coding*/
+
+#singup_section
+    {
+        width: 700px;
+        height: 469px;;
+        float: right;
+        background-image: url(../images/s_bg.png);
+        box-sizing: border-box;
+        padding:20px;
+    }
+
+#singup_fieldset
+    {
+        width: 390px;
+        height: 400px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: white;
+        margin-left: 230px;
+        padding: 15px;
+        margin-top: -10px;
+    }
+
+#singup_legend
+    {
+        font-family: century gothic;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+#singup_form
+    {
+        font-family: century gothic;
+        color: white;
+        font-size: 20px;
+    }
+
+#singup_username
+    {
+        width: 100%;
+        height: 30px;
+        background-color: inherit;
+        border: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        font-size: 15px;
+        margin-top: 10px; 
+        margin-bottom: 20px;
+    }
+
+#singup_password
+    {
+        width: 100%;
+        height: 30px;
+        background-color: inherit;
+        border: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+#singup_email
+    {
+        width: 100%;
+        height: 30px;
+        background-color: inherit;
+        border: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        font-size: 15px; 
+        margin-bottom: 20px;  
+    }
+
+#singup_address
+    {
+        width: 100%;
+        height: 30px;
+        background-color: inherit;
+        border: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        font-size: 15px; 
+        
+    }
+
+#singup_button
+    {
+        width: 130px;
+        height: 35px;
+        float: right;
+        margin-top: 20px;
+        background-color: inherit;
+        border: none;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        color: white;
+        font-family: century gothic;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+/* End singup page section coding*/
+
+
+/* Start Contact page section coding*/
+
+#contact_section
+    {
+        width: 700px;
+        height: 469px;;
+        float: right;
+        background-image: url(../images/s_bg.png);
+        box-sizing: border-box;
+        padding:20px;
+    }
+
+#contact_fieldset
+    {
+        width: 380px;
+        height: 200px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: white;
+        margin-left: 230px;
+        padding: 20px;
+        margin-top: 80px;
+    }
+
+#contact_legend
+    {
+        font-family: century gothic;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+#contact
+    {
+        font-size: 20px;
+        color: white;
+        font-style: normal;
+        font-family: century gothic;
+        line-height: 40px;
+    }
+
+/* End contact page section coding*/
+
+
+/* Start product page section coding*/
+
+#product_section
+    {
+        width: 100%;
+        height: 2950px;
+        border-width: 1px;
+        border-style: solid;
+        float: left;
+        box-sizing: border-box;
+    }
+
+#brand
+    {
+        width: 100%;
+        height: 350px;
+        background-color: rgba(255,255,255,0.8);
+        float: left;
+        box-sizing: border-box;
+    }
+
+#brand_heading
+    {
+        text-align: center;
+        font-family: century gothic;
+        font-size: 40px;
+    }
+
+#brand_pic
+    {
+        width: 205px;
+        height: 85px;
+        float: left;
+        box-sizing: border-box;
+        border-width: 3px;
+        border-style: solid;
+        border-color: black;
+        margin: 48px;
+        margin-top:-10px;
+        background-color: white;
+    }
+
+#product_form_search
+    {
+      width: 60%;
+      height: 50px;
+      box-sizing: border-box;
+      float: left;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-top: 20px;
+      border: none;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #ccc;
+      font-size: 15px;
+      padding: 20px;
+      background-image: url(../images/search.png);
+      background-size: 40px 40px;
+      background-repeat: no-repeat;
+      background-position: right;
+    }
+
+#zest_products
+    {
+        width: 100%;
+        height: 520px;
+        float: left;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+#zest
+    {
+        text-align: center;
+        color: white;
+        font-family: century gothic;
+        font-size: 35px;
+
+    }
+
+#zest_products_pic
+    {
+        width: 250px;
+        height: 300px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        box-sizing: border-box;
+        float: left;
+        margin: 63px;
+    }
+
+    #zest_products
+    {
+        width: 100%;
+        height: 520px;
+        float: left;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    #zest_images
+    {
+        width: 100%;
+        height: 230px;
+        box-sizing: border-box;
+        border: none;
+        border-color: black;
+        border-style: solid;
+        border-image-width: 3px;
+    }
+
+    #zest_product_name
+    {
+       color: white; 
+       text-align: center;
+       font-family: sans-serif;
+       padding: 0;
+       margin: 0;
+       margin-top: 5px;
+    }
+
+    #zest_product_price
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+    #zest_buy_product
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif; 
+        float: right;
+    }
+
+#dove
+    {
+        text-align: center;
+        color: white;
+        font-family: century gothic;
+        font-size: 35px;
+
+    }
+
+    #dove_products_pic
+    {
+        width: 250px;
+        height: 300px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        box-sizing: border-box;
+        float: left;
+        margin: 63px;
+    }
+    #dove_products
+    {
+        width: 100%;
+        height: 520px;
+        float: left;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    
+    #dove_images
+    {
+        width: 100%;
+        height: 230px;
+        box-sizing: border-box;
+        border: none;
+        border-color: black;
+        border-style: solid;
+        border-image-width: 3px;
+    }
+
+    #dove_product_name
+    {
+       color: white; 
+       text-align: center;
+       font-family: sans-serif;
+       padding: 0;
+       margin: 0;
+       margin-top: 5px;
+    }
+
+    #dove_product_price
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+    #dove_buy_product
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif; 
+        float: right;
+    }
+
+
+
+    #amazingbeauty
+    {
+        text-align: center;
+        color: white;
+        font-family: century gothic;
+        font-size: 35px;
+
+    }
+
+    #amazingbeauty_products_pic
+    {
+        width: 250px;
+        height: 300px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        box-sizing: border-box;
+        float: left;
+        margin: 63px;
+    }
+    #amazingbeauty_products
+    {
+        width: 100%;
+        height: 520px;
+        float: left;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    
+    #amazingbeauty_images
+    {
+        width: 100%;
+        height: 230px;
+        box-sizing: border-box;
+        border: none;
+        border-color: black;
+        border-style: solid;
+        border-image-width: 3px;
+    }
+
+    #amazingbeauty_product_name
+    {
+       color: white; 
+       text-align: center;
+       font-family: sans-serif;
+       padding: 0;
+       margin: 0;
+       margin-top: 5px;
+    }
+
+    #amazingbeauty_product_price
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+    #amazingbeauty_buy_product
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif; 
+        float: right;
+    }
+
+
+#personacare
+    {
+        text-align: center;
+        color: white;
+        font-family: century gothic;
+        font-size: 35px;
+
+    }
+
+    #personacare_products_pic
+    {
+        width: 250px;
+        height: 300px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        box-sizing: border-box;
+        float: left;
+        margin: 63px;
+    }
+    #personacare_products
+    {
+        width: 100%;
+        height: 520px;
+        float: left;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    
+    #personacare_images
+    {
+        width: 100%;
+        height: 230px;
+        box-sizing: border-box;
+        border: none;
+        border-color: black;
+        border-style: solid;
+        border-image-width: 3px;
+    }
+
+    #personacare_product_name
+    {
+       color: white; 
+       text-align: center;
+       font-family: sans-serif;
+       padding: 0;
+       margin: 0;
+       margin-top: 5px;
+    }
+
+    #personacare_product_price
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+    #personacare_buy_product
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif; 
+        float: right;
+    }
+
+
+#amica
+    {
+        text-align: center;
+        color: white;
+        font-family: century gothic;
+        font-size: 35px;
+
+    }
+
+    #amica_products_pic
+    {
+        width: 250px;
+        height: 300px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: white;
+        box-sizing: border-box;
+        float: left;
+        margin: 63px;
+    }
+    #amica_products
+    {
+        width: 100%;
+        height: 520px;
+        float: left;
+        box-sizing: border-box;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    
+    #amika_images
+    {
+        width: 100%;
+        height: 230px;
+        box-sizing: border-box;
+        border: none;
+        border-color: black;
+        border-style: solid;
+        border-image-width: 3px;
+    }
+
+    #amika_product_name
+    {
+       color: white; 
+       text-align: center;
+       font-family: sans-serif;
+       padding: 0;
+       margin: 0;
+       margin-top: 5px;
+    }
+
+    #amika_product_price
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif;
+        float: left;
+    }
+
+    #amika_buy_product
+    {
+        padding: 0;
+        margin: 0;
+        color: white;
+        margin: 11px;
+        font-family: sans-serif; 
+        float: right;
+    }
+
+/* End product page section coding*/
+
+
+/* Start product page footer coding*/
+
+footer
+    {
+        width: 100%;
+        height: 60px;
+        float: left;
+        box-sizing: border-box;
+        background-color: rgba(255,255,255,0.8);
+        text-align: center;
+        
+    }
+
+
+/* End product page footer coding*/
